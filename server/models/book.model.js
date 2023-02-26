@@ -21,6 +21,10 @@ const book = db.define(
             type: sequelize.DATE,
             allowNull: false,
         },
+        updated_at: {
+            type: sequelize.DATE,
+            allowNull: true,
+        },
         year: {
             type: sequelize.NUMBER,
             allowNull: false,
